@@ -18,12 +18,13 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
     // Do any additional setup after loading the view, typically from a nib.
+    
     [self initPZXButton];
 }
 
 -(void)initPZXButton{
     //pzxopen按钮初始化
-    CGRect frame = CGRectMake(99,99, 45, 45);
+    CGRect frame = CGRectMake(0,0, 45, 45);
     PZXOpenButton *pzxButton = [[PZXOpenButton alloc]initWithCenterImage:[UIImage imageNamed:@"加号"] hilightedImage:[UIImage imageNamed:@"加号"] centerFrame:frame];
     //可以自己设置控件的中心点
 //    pzxButton.foldCenter = CGPointMake(200, 200);
