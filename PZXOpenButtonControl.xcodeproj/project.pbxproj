@@ -13,6 +13,15 @@
 		70461D721DCB21AC00AFA25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70461D701DCB21AC00AFA25F /* Main.storyboard */; };
 		70461D741DCB21AC00AFA25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70461D731DCB21AC00AFA25F /* Assets.xcassets */; };
 		70461D771DCB21AC00AFA25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70461D751DCB21AC00AFA25F /* LaunchScreen.storyboard */; };
+		70461DAC1DCB21D600AFA25F /* PZXOpenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70461D941DCB21D600AFA25F /* PZXOpenButton.m */; };
+		70461DAD1DCB21D600AFA25F /* PZXOpenCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70461D961DCB21D600AFA25F /* PZXOpenCenterButton.m */; };
+		70461DAE1DCB21D600AFA25F /* PZXOpenSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70461D981DCB21D600AFA25F /* PZXOpenSubButton.m */; };
+		70E3C6F91DCB255F007CB288 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F31DCB255F007CB288 /* 01.png */; };
+		70E3C6FA1DCB255F007CB288 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F41DCB255F007CB288 /* 03.png */; };
+		70E3C6FB1DCB255F007CB288 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F51DCB255F007CB288 /* 04.png */; };
+		70E3C6FC1DCB255F007CB288 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F61DCB255F007CB288 /* 07.png */; };
+		70E3C6FD1DCB255F007CB288 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F71DCB255F007CB288 /* 08.png */; };
+		70E3C6FE1DCB255F007CB288 /* 加号.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F81DCB255F007CB288 /* 加号.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,18 @@
 		70461D731DCB21AC00AFA25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70461D761DCB21AC00AFA25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70461D781DCB21AC00AFA25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70461D931DCB21D600AFA25F /* PZXOpenButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXOpenButton.h; sourceTree = "<group>"; };
+		70461D941DCB21D600AFA25F /* PZXOpenButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXOpenButton.m; sourceTree = "<group>"; };
+		70461D951DCB21D600AFA25F /* PZXOpenCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXOpenCenterButton.h; sourceTree = "<group>"; };
+		70461D961DCB21D600AFA25F /* PZXOpenCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXOpenCenterButton.m; sourceTree = "<group>"; };
+		70461D971DCB21D600AFA25F /* PZXOpenSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXOpenSubButton.h; sourceTree = "<group>"; };
+		70461D981DCB21D600AFA25F /* PZXOpenSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXOpenSubButton.m; sourceTree = "<group>"; };
+		70E3C6F31DCB255F007CB288 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		70E3C6F41DCB255F007CB288 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		70E3C6F51DCB255F007CB288 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		70E3C6F61DCB255F007CB288 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		70E3C6F71DCB255F007CB288 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		70E3C6F81DCB255F007CB288 /* 加号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 		70461D661DCB21AC00AFA25F /* PZXOpenButtonControl */ = {
 			isa = PBXGroup;
 			children = (
+				70461D7E1DCB21D600AFA25F /* PZXOpenButton */,
 				70461D6A1DCB21AC00AFA25F /* AppDelegate.h */,
 				70461D6B1DCB21AC00AFA25F /* AppDelegate.m */,
 				70461D6D1DCB21AC00AFA25F /* ViewController.h */,
@@ -77,6 +99,33 @@
 				70461D681DCB21AC00AFA25F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70461D7E1DCB21D600AFA25F /* PZXOpenButton */ = {
+			isa = PBXGroup;
+			children = (
+				70E3C6F21DCB255F007CB288 /* image */,
+				70461D931DCB21D600AFA25F /* PZXOpenButton.h */,
+				70461D941DCB21D600AFA25F /* PZXOpenButton.m */,
+				70461D951DCB21D600AFA25F /* PZXOpenCenterButton.h */,
+				70461D961DCB21D600AFA25F /* PZXOpenCenterButton.m */,
+				70461D971DCB21D600AFA25F /* PZXOpenSubButton.h */,
+				70461D981DCB21D600AFA25F /* PZXOpenSubButton.m */,
+			);
+			path = PZXOpenButton;
+			sourceTree = "<group>";
+		};
+		70E3C6F21DCB255F007CB288 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				70E3C6F31DCB255F007CB288 /* 01.png */,
+				70E3C6F41DCB255F007CB288 /* 03.png */,
+				70E3C6F51DCB255F007CB288 /* 04.png */,
+				70E3C6F61DCB255F007CB288 /* 07.png */,
+				70E3C6F71DCB255F007CB288 /* 08.png */,
+				70E3C6F81DCB255F007CB288 /* 加号.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +187,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E3C6FA1DCB255F007CB288 /* 03.png in Resources */,
+				70E3C6FD1DCB255F007CB288 /* 08.png in Resources */,
+				70E3C6FE1DCB255F007CB288 /* 加号.png in Resources */,
 				70461D771DCB21AC00AFA25F /* LaunchScreen.storyboard in Resources */,
+				70E3C6FC1DCB255F007CB288 /* 07.png in Resources */,
 				70461D741DCB21AC00AFA25F /* Assets.xcassets in Resources */,
+				70E3C6FB1DCB255F007CB288 /* 04.png in Resources */,
+				70E3C6F91DCB255F007CB288 /* 01.png in Resources */,
 				70461D721DCB21AC00AFA25F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70461DAD1DCB21D600AFA25F /* PZXOpenCenterButton.m in Sources */,
+				70461DAE1DCB21D600AFA25F /* PZXOpenSubButton.m in Sources */,
 				70461D6F1DCB21AC00AFA25F /* ViewController.m in Sources */,
 				70461D6C1DCB21AC00AFA25F /* AppDelegate.m in Sources */,
+				70461DAC1DCB21D600AFA25F /* PZXOpenButton.m in Sources */,
 				70461D691DCB21AC00AFA25F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +370,7 @@
 				70461D7D1DCB21AC00AFA25F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
