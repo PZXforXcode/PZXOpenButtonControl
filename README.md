@@ -1,7 +1,7 @@
 # PZXOpenButtonControl
   模仿书摘中心的展开按钮封装的一个控件，轻量级，很好用好用，不支持cocoaPod。
 
-   //pzxopen按钮初始化
+   //pzxopen按钮初始化\n
     CGRect frame = CGRectMake(0,0, 45, 45);
     PZXOpenButton *pzxButton = [[PZXOpenButton alloc]initWithCenterImage:[UIImage imageNamed:@"加号"] hilightedImage:[UIImage imageNamed:@"加号"] centerFrame:frame];
         //可以自己设置控件的中心点
