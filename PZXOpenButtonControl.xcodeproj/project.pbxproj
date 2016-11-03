@@ -16,6 +16,7 @@
 		70461DAC1DCB21D600AFA25F /* PZXOpenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70461D941DCB21D600AFA25F /* PZXOpenButton.m */; };
 		70461DAD1DCB21D600AFA25F /* PZXOpenCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70461D961DCB21D600AFA25F /* PZXOpenCenterButton.m */; };
 		70461DAE1DCB21D600AFA25F /* PZXOpenSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70461D981DCB21D600AFA25F /* PZXOpenSubButton.m */; };
+		70658E151DCB366100D05A04 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 70658E141DCB366100D05A04 /* README.md */; };
 		70E3C6F91DCB255F007CB288 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F31DCB255F007CB288 /* 01.png */; };
 		70E3C6FA1DCB255F007CB288 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F41DCB255F007CB288 /* 03.png */; };
 		70E3C6FB1DCB255F007CB288 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E3C6F51DCB255F007CB288 /* 04.png */; };
@@ -41,6 +42,7 @@
 		70461D961DCB21D600AFA25F /* PZXOpenCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXOpenCenterButton.m; sourceTree = "<group>"; };
 		70461D971DCB21D600AFA25F /* PZXOpenSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXOpenSubButton.h; sourceTree = "<group>"; };
 		70461D981DCB21D600AFA25F /* PZXOpenSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXOpenSubButton.m; sourceTree = "<group>"; };
+		70658E141DCB366100D05A04 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		70E3C6F31DCB255F007CB288 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		70E3C6F41DCB255F007CB288 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 		70E3C6F51DCB255F007CB288 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				70461D6A1DCB21AC00AFA25F /* AppDelegate.h */,
 				70461D6B1DCB21AC00AFA25F /* AppDelegate.m */,
 				70461D6D1DCB21AC00AFA25F /* ViewController.h */,
+				70658E141DCB366100D05A04 /* README.md */,
 				70461D6E1DCB21AC00AFA25F /* ViewController.m */,
 				70461D701DCB21AC00AFA25F /* Main.storyboard */,
 				70461D731DCB21AC00AFA25F /* Assets.xcassets */,
@@ -209,6 +212,7 @@
 				70461DAD1DCB21D600AFA25F /* PZXOpenCenterButton.m in Sources */,
 				70461DAE1DCB21D600AFA25F /* PZXOpenSubButton.m in Sources */,
 				70461D6F1DCB21AC00AFA25F /* ViewController.m in Sources */,
+				70658E151DCB366100D05A04 /* README.md in Sources */,
 				70461D6C1DCB21AC00AFA25F /* AppDelegate.m in Sources */,
 				70461DAC1DCB21D600AFA25F /* PZXOpenButton.m in Sources */,
 				70461D691DCB21AC00AFA25F /* main.m in Sources */,
