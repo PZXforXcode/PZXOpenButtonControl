@@ -30,7 +30,6 @@
 //    pzxButton.foldCenter = CGPointMake(200, 200);
     pzxButton.delegate = self;
     
-    
     PZXOpenSubButton *itemButton_1 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"01"]
                                                            highlightedImage:[UIImage imageNamed:@"01"] buttonFrame:frame];
                                       
