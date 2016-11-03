@@ -1,23 +1,4 @@
 # PZXOpenButtonControl
-  模仿书摘中心的展开按钮封装的一个控件，轻量级，很好用好用，不支持cocoaPod。
-
-   //pzxopen按钮初始化\n/n
-    CGRect frame = CGRectMake(0,0, 45, 45);
-    PZXOpenButton *pzxButton = [[PZXOpenButton alloc]initWithCenterImage:[UIImage imageNamed:@"加号"] hilightedImage:[UIImage imageNamed:@"加号"] centerFrame:frame];
-        //可以自己设置控件的中心点
-     pzxButton.foldCenter = CGPointMake(200, 200);
-  //添加f附属按钮
-   PZXOpenSubButton *itemButton_1 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"01"]
-                                                           highlightedImage:[UIImage imageNamed:@"01"] buttonFrame:frame];
-                                      
-    PZXOpenSubButton *itemButton_2 =[[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"03"]
-                                                          highlightedImage:[UIImage imageNamed:@"03"] buttonFrame:frame];
-
-  //add附属按钮
-    [pzxButton addSubItems:@[itemButton_1, itemButton_2]];
-    [self.view addSubview:pzxButton];
-    
-    //d点击事件代理
-    -(void)subButtonPressedWithIndex:(NSUInteger)index
+<div><div>&nbsp; 模仿书摘中心的展开按钮封装的一个控件，轻量级，很好用好用，不支持cocoaPod。</div><div><br></div><div>&nbsp; &nbsp;//pzxopen按钮初始化</div><div>&nbsp; &nbsp; CGRect frame = CGRectMake(0,0, 45, 45);</div><div>&nbsp; &nbsp; PZXOpenButton *pzxButton = [[PZXOpenButton alloc]initWithCenterImage:[UIImage imageNamed:@"加号"] hilightedImage:[UIImage imageNamed:@"加号"] centerFrame:frame];</div><div>&nbsp; &nbsp; &nbsp; &nbsp; //可以自己设置控件的中心点</div><div>&nbsp; &nbsp; &nbsp;pzxButton.foldCenter = CGPointMake(200, 200);</div><div>&nbsp; //添加f附属按钮</div><div>&nbsp; &nbsp;PZXOpenSubButton *itemButton_1 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"01"]</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;highlightedImage:[UIImage imageNamed:@"01"] buttonFrame:frame];</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; PZXOpenSubButton *itemButton_2 =[[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"03"]</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; highlightedImage:[UIImage imageNamed:@"03"] buttonFrame:frame];</div><div>&nbsp; //add附属按钮</div><div>&nbsp; &nbsp; [pzxButton addSubItems:@[itemButton_1, itemButton_2]];</div><div>&nbsp; &nbsp; [self.view addSubview:pzxButton];</div><div>&nbsp; &nbsp; //d点击事件代理</div><div>&nbsp; &nbsp; -(void)subButtonPressedWithIndex:(NSUInteger)index</div></div>
 
 ![image](https://github.com/PZXforXcode/PZXOpenButtonControl/blob/master/PZXOpenButtonControl/sz控件.gif) 
