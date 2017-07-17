@@ -29,7 +29,6 @@
     //可以自己设置控件的中心点
 //    pzxButton.foldCenter = CGPointMake(200, 200);
     pzxButton.delegate = self;
-    
     PZXOpenSubButton *itemButton_1 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"01"]
                                                            highlightedImage:[UIImage imageNamed:@"01"] buttonFrame:frame];
                                       
@@ -40,11 +39,24 @@
                                                           highlightedImage:[UIImage imageNamed:@"04"] buttonFrame:frame];
     
     PZXOpenSubButton *itemButton_4 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"07"]
-                                                           highlightedImage:[UIImage imageNamed:@"07"] buttonFrame:frame];;
+                                                           highlightedImage:[UIImage imageNamed:@"07"] buttonFrame:frame];
     PZXOpenSubButton *itemButton_5 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"08"]
-                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];;
+                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];
+    PZXOpenSubButton *itemButton_6 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"08"]
+                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];
+    PZXOpenSubButton *itemButton_7 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"08"]
+                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];
+    PZXOpenSubButton *itemButton_8 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"08"]
+                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];
+    PZXOpenSubButton *itemButton_9 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"08"]
+                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];
+    PZXOpenSubButton *itemButton_0 = [[PZXOpenSubButton alloc]initWithImage:[UIImage imageNamed:@"08"]
+                                                           highlightedImage:[UIImage imageNamed:@"08"] buttonFrame:frame];
     
-    [pzxButton addSubItems:@[itemButton_1, itemButton_2, itemButton_3, itemButton_4, itemButton_5]];
+    [pzxButton addSubItems:@[itemButton_1, itemButton_2, itemButton_3, itemButton_4, itemButton_5,itemButton_6,itemButton_7,itemButton_8,itemButton_9,itemButton_0]];
+    
+//    [pzxButton addSubItems:@[itemButton_1, itemButton_2, itemButton_3, itemButton_4, itemButton_5]];
+
     [self.view addSubview:pzxButton];
     
     

@@ -9,6 +9,8 @@
 #import "PZXOpenButton.h"
 #import "PZXOpenCenterButton.h"
 
+#define items
+
 
 @interface PZXOpenButton ()<PZXOpenSubButtonDelegate,PZXCenterButtonDelegate>
 
@@ -151,8 +153,13 @@
 {
     
     //中心点相减x弧度,密码线。
-    return CGPointMake(self.ButtonBloomCenter.x - cosf(angel * M_PI) * itemExpandRadius,
-                       self.ButtonBloomCenter.y - sinf(angel * M_PI) * itemExpandRadius);
+    //1.10个圆形算法(如果减少圆形个数，就要加大2.25这个基数)：
+    return CGPointMake(self.ButtonBloomCenter.x - cosf((angel*2.25) * M_PI) * itemExpandRadius,
+                       self.ButtonBloomCenter.y - sinf((angel*2.25) * M_PI) * itemExpandRadius);
+    //1.半圆算法：
+//    return CGPointMake(self.ButtonBloomCenter.x - cosf((angel) * M_PI) * itemExpandRadius,
+//                       self.ButtonBloomCenter.y - sinf((angel) * M_PI) * itemExpandRadius);
+    
 }
 
 #pragma mark - 中心按钮折叠
@@ -185,7 +192,8 @@
 - (void)resizeToFoldedFrame
 {
     //动画比较简单用的uikit框架
-    
+    _CenterButton.userInteractionEnabled = NO;
+    self.userInteractionEnabled = NO;
     //旋转按钮动画
     [UIView animateWithDuration:0.0618f * 3
                           delay:0.0618f * 2
@@ -218,6 +226,8 @@
         self.CenterButton.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
         //删除底层view
         [self.bottomView removeFromSuperview];
+        _CenterButton.userInteractionEnabled = YES;
+        self.userInteractionEnabled = YES;
         
     });
     //展开状态关闭
@@ -265,6 +275,7 @@
 
 #pragma mark - 中心按钮展开
 - (void)CenterButtonBloom{
+    _CenterButton.userInteractionEnabled = NO;
 
     //1.设置展开中心为当前中心
     self.ButtonBloomCenter = self.center;
@@ -284,7 +295,10 @@
                      animations:^{
                          _bottomView.alpha = 0.618f;
                      }
-                     completion:nil];
+                     completion:^(BOOL finished) {
+                         _CenterButton.userInteractionEnabled = YES;
+
+                     }];
     
     //
     [UIView animateWithDuration:0.1575f
